@@ -1,171 +1,66 @@
-@media screen and (min-width:319px) and (max-width:700px) {
-    body {
-        background-image: url("image/mobile.jpg");
-        background-size: cover;
-    }
-
-    .weather {
-        position: absolute;
-        top:130px;
-        width: 250px;
-        height: 400px;
-        transition: none;
-    }
-    .weather:hover {
-        transform:none;
-        cursor: none;
-    }
-
-    .search {
-        left: 10px;
-        width: 300px;
-    }
-
-    .search:hover {
-        box-shadow: 2px 2px 16px rgb(127, 170, 127);
-        cursor: pointer;
-    }
-
-    .weatherimage {
-        position: absolute;
-        top: 630px;
-        left: 20px;
-        width: 280px;
-        height: 420px;
-        transition:none;
-    }
-
-    .weatherimage:hover {
-        transform: none;
-        cursor:none;
-    }
-
-    .temp {
-        position: absolute;
-        top: 1100px;
-        left: 20px;
-        width: 280px;
-        height: 420px;
-    }
-
-    .temp:hover {
-        transform: none;
-        cursor: none;
-    }
-
-    h1 {
-        margin-left: 15px;
-    }
-
-    #image {
-        margin-left: 70px;
-        width: 100px;
-        height: 100px;
-    }
-
-    .Details {
-        margin-top: 0px;
-        font-size: 20px;
-    }
-
-    #city {
-        margin-left: 20px;
-        padding-left: 0px;
-    }
-
-    h3 {
-        margin-left: 20px;
-    }
-
-    #image1 {
-        width: 100px;
-        height: 100px;
-    }
-
-    .templ {
-        top: 100px;
-        left: 130px;
-        font-size: 40px;
-    }
-
-    .circle {
-        top: 210px;
-        left: 30px;
-        width: 80px;
-    }
-    .press {
-        top: 190px;
-        left: 130px;
-        font-size: 40px;
-    }
-
-    .mm {
-        top: 320px;
-        left: 10px;
-        font-size:  20px;
-    }
-
-    .min {
-        margin-right: 10px;
-        color:black;
-    }
-
-    .max {
-        margin-right: 10px;
-        color:black;
-    }
-
-    .minbox {
-        width: 65px;
-        height: 50px;
-        color:black;
-        font-size: 18px;
-    }
-
-    .c {
-        margin-top: 15px;
-        margin-left: 4px;
-    }
-
-    .humanity {
-        margin-left: 20px;
-        font-size: 40px;
-    }
-
-    .start {
-        display: inline;
-    }
-
-    #imghum {
-        margin-left: 50px;
-        width: 150px;
-        height: 150px;
-    }
-
-    #humanity {
-        margin-left: 65px;
-    }
-
-    .sun {
-        width: 280px;
-        height: 350px;
-        margin-top: 0px;
-        margin-left: 0px;
-        border-radius: 30px;
-        box-shadow: 2px 2px 6px rgb(127, 170, 127);
-    }
-    .sun:hover {
-        box-shadow: 2px 2px 16px rgb(127, 170, 127);
-        cursor:none;
-    }
-    .Sunrise{
-        text-align:center;
-        color:black;
-    }
-    #Sunrise{
-        color:black;
-    }
-    #Sunset{
-        color:black;
-    }
+@media screen and (min-width:319px) and (max-width:764px) {
+    body {background-image: url("image/mobile.jpg");background-size: cover;}
+    .weather {position: absolute;top:130px;width: 250px;height: 400px;transition: none;}
+    .weather:hover {transform:none;cursor: none;}.search {left: 10px;width: 300px;}
+    .search:hover {box-shadow: 2px 2px 16px rgb(127, 170, 127);cursor: pointer;}
+    .weatherimage {position: absolute;top: 630px;left: 20px;width: 280px;height: 420px;transition:none;}
+    .weatherimage:hover { transform: none;cursor:none;}
+    .temp {position: absolute;top: 1100px;left: 20px;width: 280px;height: 420px;}
+    .temp:hover {transform: none;cursor: none;}h1 {margin-left: 15px;}
+    #image {margin-left: 70px;width: 100px;height: 100px;}
+    .Details {margin-top: 0px;font-size: 20px;}
+    #city {margin-left: 20px;padding-left: 0px;}
+    h3 {margin-left: 20px;}
+    #image1 {width: 100px;height: 100px;}
+    .templ {top: 100px;left: 130px;font-size: 40px;}
+    .circle {top: 210px;left: 30px;width: 80px;}
+    .press {top: 190px;left: 130px;font-size: 40px;}
+    .mm {top: 320px;left: 10px;font-size:  20px;}
+    .min {margin-right: 10px;color:black;}
+    .max {margin-right: 10px;color:black;}
+    .minbox {width: 65px;height: 50px;color:black;font-size: 18px;}
+    .c {margin-top: 15px;margin-left: 4px;}
+    .humanity {margin-left: 20px;font-size: 40px;}
+    .start {display: inline;}
+    #imghum {margin-left: 50px;width: 150px;height: 150px;}
+    #humanity {margin-left: 65px;}
+    .sun {width: 280px;height: 350px;margin-top: 0px;margin-left: 0px;border-radius: 30px;box-shadow: 2px 2px 6px rgb(127, 170, 127);}
+    .sun:hover {box-shadow: 2px 2px 16px rgb(127, 170, 127); cursor:none;}
+    .Sunrise{text-align:center;color:black;}
+    #Sunrise{margin-left:30px;color:black;}
+    #Sunset{margin-left:33px;color:black;}
+}
+@media screen and (min-width:375px) and (max-width:424px){
+    .search{width:350px;}
+    #city{width:200px;}
+    .weather{width:300px;}
+    h1{margin-left: 40px;}
+    #image{margin-left: 90px;}
+    .weatherimage{width:330px;}
+    .temp{width:330px;}
+    .humanity{margin-left: 70px;}
+    #imghum{margin-left:85px}
+    #humanity{margin-left:85px;}
+    .sun{width:330px;}
+    #Sunrise{margin-left:60px;}
+    #Sunset{margin-left:60px;}
+}
+@media screen and (min-width:425px) and (max-width:764px) {
+    .search{width:405px;}
+    #city{width:265px;}
+    .weather{width:350px;height: 480px;}
+    .Details{font-size:25px; margin-left:50px;}
+    h1{margin-left: 65px;}
+    #image{margin-left: 120px;}
+    .weatherimage{width:350px; margin-left:20px; top:680px;}
+    .temp{width:380px; top:1150px;height: 500px;}
+    #image1{margin-left:50px;}
+    #templ{left: 190px;}
+    .mm{margin-left: 30px;}
+    .humanity{margin-left: 90px;}
+    #imghum{margin-left:85px ;width:220px;height: 220px;}
+    #humanity{margin-left:110px;}
+    .sun{width:330px;margin-left:30px;}
+    #Sunrise{margin-left:60px;}
+    #Sunset{margin-left:60px;}
 }
