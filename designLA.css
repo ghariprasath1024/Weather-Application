@@ -1,0 +1,26 @@
+@media screen and (min-width:1023px) and (max-width:1439px) {
+    .weather {width: 250px;height: 550px;margin-top: 20px;margin-left: 20px;}
+    .search {top: 25px;left: 330px;width: 650px;}
+    .weatherimage {top: 150px;left: 330px;width: 250px;height: 420px;}
+    .temp {top: 150px;left: 600px;width: 400px;height: 420px;}
+    h1 {margin-left: 15px;}
+    #image {margin-left: 20px;}
+    .Details {margin-left: 20px;margin-top: 0px;font-size: 20px;}
+    #city {padding-left: 330px;}
+    h3 {margin-left: 25px;font-size: 30px;}
+    #image1 {margin-left: 10px;width: 100px;height: 100px;}
+    .templ {top: 85px;left: 120px;font-size: 40px;}
+    .circle {top: 240px;left: 20px;width: 50px;height: 50px;}
+    #pressure {margin-top: 20px;margin-left: 6px;font-size: 10px;}
+    .press {top: 200px;left: 100px;font-size: 40px;}
+    .mm {top: 330px;left: 10px;font-size: 20px;}
+    .minbox {width: 50px;height: 50px;font-size: 25px;}
+    .c {margin-top: 18px;margin-left: 3px;font-size:13px;}
+    .humanity {margin-left: 30px;font-size: 35px;}
+    #imghum {margin-top:20px;margin-left: 30px;width: 130px;height: 130px;}
+    #humanity {margin-left: 50px;margin-top: 50px;font-size: 70px;}
+    .sun {width: 180px;height:300px;margin-left: 20px;}
+    .Sunrise {margin-left: 0px;font-size: 30px;text-align: center;}
+    #Sunrise {font-size: 20px;margin-left: 40px;}
+    #Sunset {font-size: 20px;margin-left: 40px;}
+}
