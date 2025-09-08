@@ -26,7 +26,7 @@
     #humanity {margin-left: 65px;}
     .sun {width: 280px;height: 350px;margin-top: 0px;margin-left: 0px;border-radius: 30px;box-shadow: 2px 2px 6px rgb(127, 170, 127);}
     .sun:hover {box-shadow: 2px 2px 16px rgb(127, 170, 127); cursor:none;}
-    .Sunrise{text-align:center;}
+    .Sunrise{text-align:center;color:black;}
     #Sunrise{margin-left:30px;color:black;}
     #Sunset{margin-left:33px;color:black;}
 }
